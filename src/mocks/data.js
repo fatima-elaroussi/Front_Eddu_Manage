@@ -123,20 +123,20 @@ export const menuItems = [
     isHide: true,
     child: [
       {
-        childtitle: "Invoice",
-        childlink: "invoice",
+        childtitle: "Listes des Etudiants",
+        childlink: "etudiant",
       },
       {
-        childtitle: "Add Invoice",
-        childlink: "add-invoice",
+        childtitle: "Add Etudiant",
+        childlink: "add-etudiant",
       },
       {
-        childtitle: "Edit Invoice",
-        childlink: "edit-invoice",
+        childtitle: "Edit Etudiant",
+        childlink: "edit-etudiant",
       },
       {
-        childtitle: "invoice preview",
-        childlink: "invoice-preview",
+        childtitle: "Etudiant preview",
+        childlink: "etudiant-preview",
       },
       {
         childtitle: "Pricing",
@@ -580,8 +580,8 @@ export const topMenu = [
         megamenuicon: "heroicons-outline:user",
         singleMegamenu: [
           {
-            m_childtitle: "Invoice",
-            m_childlink: "invoice",
+            m_childtitle: "Etudiant",
+            m_childlink: "Etudiant",
           },
           {
             m_childtitle: "Pricing",

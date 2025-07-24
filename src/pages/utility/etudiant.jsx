@@ -35,7 +35,7 @@ const IndeterminateCheckbox = React.forwardRef(
   }
 );
 
-const InvoicePage = () => {
+const EtudiantPage = () => {
   const navigate = useNavigate();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(10);
@@ -363,4 +363,4 @@ const InvoicePage = () => {
   );
 };
 
-export default InvoicePage;
+export default EtudiantPage;

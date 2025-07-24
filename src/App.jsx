@@ -61,12 +61,12 @@ const BasicTablePage = lazy(() => import("./pages/table/table-basic"));
 const TanstackTable = lazy(() => import("./pages/table/react-table"));
 
 // utility pages
-const InvoicePage = lazy(() => import("./pages/utility/invoice"));
-const InvoiceAddPage = lazy(() => import("./pages/utility/add-invoice"));
-const InvoicePreviewPage = lazy(() =>
-  import("./pages/utility/invoice-preview")
+const EtudiantPage = lazy(() => import("./pages/utility/etudiant"));
+const EtudiantAddPage = lazy(() => import("./pages/utility/add-etudiant"));
+const EtudiantPreviewPage = lazy(() =>
+  import("./pages/utility/etudiant-preview")
 );
-const InvoiceEditPage = lazy(() => import("./pages/utility/edit-invoice"));
+const EtudiantEditPage = lazy(() => import("./pages/utility/edit-etudiant"));
 const PricingPage = lazy(() => import("./pages/utility/pricing"));
 const BlankPage = lazy(() => import("./pages/utility/blank-page"));
 
@@ -143,10 +143,10 @@ function App() {
           <Route path="map" element={<MapPage />} />
           <Route path="table-basic" element={<BasicTablePage />} />
           <Route path="react_table" element={<TanstackTable />} />
-          <Route path="invoice" element={<InvoicePage />} />
-          <Route path="add-invoice" element={<InvoiceAddPage />} />
-          <Route path="invoice-preview" element={<InvoicePreviewPage />} />
-          <Route path="edit-invoice" element={<InvoiceEditPage />} />
+          <Route path="etudiant" element={<EtudiantPage />} />
+          <Route path="add-etudiant" element={<EtudiantAddPage />} />
+          <Route path="etudiant-preview" element={<EtudiantPreviewPage />} />
+          <Route path="edit-etudiant" element={<EtudiantEditPage />} />
           <Route path="pricing" element={<PricingPage />} />
           <Route path="blank-page" element={<BlankPage />} />
           <Route path="faq" element={<FaqPage />} />

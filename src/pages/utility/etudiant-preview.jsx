@@ -2,14 +2,14 @@ import React from "react";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import Icon from "@/components/ui/Icon";
-import InvoiceTable from "./InvoiceTable";
+import EtudiantTable from "./EtudiantTable";
 import userDarkMode from "@/hooks/useDarkMode";
 
 // import images
 import MainLogo from "@/assets/images/logo/logo-c.svg";
 import LogoWhite from "@/assets/images/logo/logo-white.svg";
 
-const InvoicePreviewPage = () => {
+const EtudiantPreviewPage = () => {
   const printPage = () => {
     window.print();
   };
@@ -80,7 +80,7 @@ const InvoicePreviewPage = () => {
             </div>
           </div>
           <div className="">
-            <InvoiceTable />
+            <EtudiantTable />
           </div>
         </div>
       </Card>
@@ -88,4 +88,4 @@ const InvoicePreviewPage = () => {
   );
 };
 
-export default InvoicePreviewPage;
+export default EtudiantPreviewPage;

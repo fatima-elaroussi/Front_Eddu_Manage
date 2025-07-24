@@ -6,11 +6,11 @@ import Textarea from "@/components/ui/Textarea";
 import Repeater from "./Repeater";
 import Flatpickr from "react-flatpickr";
 
-const InvoiceAddPage = () => {
+const EtudiantEditPage = () => {
   const [picker, setPicker] = useState(new Date());
   return (
     <div>
-      <Card title="Create new invoice">
+      <Card title="Edit Etudiant">
         <h4 className="text-gray-900 dark:text-white text-xl mb-4">
           #481489184914
         </h4>
@@ -73,7 +73,7 @@ const InvoiceAddPage = () => {
             </div>
           </div>
           <div className="ltr:text-right rtl:text-left space-x-3 rtl:space-x-reverse">
-            <Button text="Save" className="btn-primary light" />
+            <Button text="Update" className="btn-primary light" />
           </div>
         </div>
       </Card>
@@ -81,4 +81,4 @@ const InvoiceAddPage = () => {
   );
 };
 
-export default InvoiceAddPage;
+export default EtudiantEditPage;

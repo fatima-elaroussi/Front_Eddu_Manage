@@ -26,7 +26,7 @@ const rows = [
   },
 ];
 
-const InvoiceTable = () => {
+const EtudiantTable = () => {
   return (
     <div>
       <table className="w-full border-collapse table-fixed dark:border-gray-700 dark:border">
@@ -89,7 +89,7 @@ const InvoiceTable = () => {
           </div>
           <div className="flex justify-between">
             <span className="font-medium text-gray-600 text-xs dark:text-gray-300 uppercase">
-              Invoice total:
+              Etudiant total:
             </span>
             <span className="text-gray-900 dark:text-gray-300 font-bold">
               $3622.00
@@ -101,4 +101,4 @@ const InvoiceTable = () => {
   );
 };
 
-export default InvoiceTable;
+export default EtudiantTable;

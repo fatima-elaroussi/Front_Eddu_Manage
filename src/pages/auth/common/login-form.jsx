@@ -27,7 +27,7 @@ const LoginForm = () => {
       const user = { email };
       localStorage.setItem("user", JSON.stringify(user));
       dispatch(setUser(user));
-      navigate("/invoice");
+      navigate("/Etudiant");
     } catch (err) {
       console.error("Login error:", err);
       setError(err.data?.message || "Failed to log in. Please check your credentials and try again.");

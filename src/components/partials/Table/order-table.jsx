@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from "react";
-import { invoiceTable } from "@/mocks/table-data";
+import { EtudiantTable } from "@/mocks/table-data";
 import Card from "@/components/ui/Card";
 import Icon from "@/components/ui/Icon";
 import Dropdown from "@/components/ui/Dropdown";
@@ -127,7 +127,7 @@ const RecentOrderTable = () => {
   ];
 
   const columns = useMemo(() => COLUMNS, []);
-  const data = useMemo(() => invoiceTable, []);
+  const data = useMemo(() => EtudiantTable, []);
 
   const tableInstance = useTable(
     {
